@@ -26,27 +26,53 @@ body{
     top: 15%;
 
 }
-.main-search{
-    display: block;
 
-    width: 60%;
-    height: 5%;
-   margin: auto auto 2em auto;
-    position: relative;
+.srch{
+  position: absolute;
+  width: 490px;
+  border-style: solid;
+  border-color: gray;
+  height: 30px;
+  left: 50%;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  transform: translateX(-50%);
+
+
+}
+
+.main-search{
+
+
+    position: absolute;
+    width: 440px;
+
+    height: 30px;
     border-radius: 40px;
+    left: 20px;
+    border-style: hidden;
 
 
 }
 .main-search:focus{
     border-radius: 40px;
+    border-style: none;
+    border-color: transparent;
+    border-width: 0px;
+    outline: none;
+
 
 }
 
 .btns{
     display: block;
-    position: relative;
+    position: absolute;
     width: fit-content;
-    margin:auto;
+    margin-top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+
+
 
 }
 .btns input{
