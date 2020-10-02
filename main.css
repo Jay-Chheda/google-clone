@@ -145,7 +145,8 @@ li{
 
 .img-holder{
     display: block;
-    width: fit-content;
+    width: 500px;
+    padding-left: 25%;
     margin:auto;
 }
 
